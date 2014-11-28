@@ -51,7 +51,9 @@ then
     ninja monkeymusic
 
 #### Running
-    ./build/monkeymusic <your-team-name> <your-api-key>
+From inside the build folder:
+
+    ./monkeymusic <your-team-name> <your-api-key> <game-id>
 
 #### Debugging
 You might want to run cmake with
