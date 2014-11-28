@@ -36,9 +36,13 @@ If cmake complains about OpenSSL on OS X, try this:
 
 #### Building with ninja for maximum awesomeness
     brew install ninja
+
 or
+
     sudo apt-get install ninja-build
+
 then
+
     cmake -GNinja ..
     ninja monkeymusic
 
@@ -47,8 +51,11 @@ then
 
 #### Debugging
 You might want to run cmake with
+
     -DCMAKE_BUILD_TYPE=Debug
+
 or
+
     -DCMAKE_BUILD_TYPE=RelWithDebInfoThen, open up a terminal and:
 
 Make sure to surf to your team page before running the above commands...
