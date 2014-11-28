@@ -50,11 +50,6 @@ then
     cmake -GNinja ..
     ninja monkeymusic
 
-#### Running
-From inside the build folder:
-
-    ./monkeymusic <your-team-name> <your-api-key> <game-id>
-
 #### Debugging
 You might want to run cmake with
 
@@ -64,23 +59,21 @@ or
 
     -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
-Make sure to surf to your team page before running the above commands...
-
-Your monkey is waiting for you!
-
-### How to complete the warmup challenge
-
+#### What to do
 `main.cpp` contains the boilerplate needed to communicate with the server. You should not need to change anything in here unless we have done something wrong.
 
 We suggest you go straight to `ai.cpp` and start playing around with the code.
 
-Remember, your mission is to:
+#### Running
+From inside the build folder:
 
-* guide your monkey through the warmup level
-* pick up all the music items
-* get them to the eagerly awaiting Spotify user
+    ./monkeymusic <your-team-name> <your-api-key> <game-id>
 
-Have fun!
+Game ids are acquired through each of the different game pages. Log in to Monkey Music through your browser to get started!
+
+Make sure to surf to your team page before running the above commands...
+
+Your monkey is waiting for you!
 
 ### Bugs
 
