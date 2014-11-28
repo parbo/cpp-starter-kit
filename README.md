@@ -35,6 +35,7 @@ This starter kit uses the [Casablanca C++ REST SDK](https://casablanca.codeplex.
     make monkeymusic
 
 If cmake complains about OpenSSL on OS X, try this:
+
     brew link openssl --force
 
 #### Building with ninja for maximum awesomeness
