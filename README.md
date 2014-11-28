@@ -22,6 +22,9 @@ this repository to your own GitHub user.
 ##### Debian/Ubuntu Linux
     sudo apt-get install libssl-dev libboost-dev
 
+#### C++ REST SDK
+This starter kit uses the [Casablanca C++ REST SDK](https://casablanca.codeplex.com/), which is a cross platform HTTP library by Microsoft that uses modern C++ features. It also uses pplx for concurrency, which might come in handy in general for this challenge.. :)
+
 #### Building
     git clone git@github.com:<username>/cpp-starter-kit.git
     cd cpp-starter-kit
@@ -56,7 +59,7 @@ You might want to run cmake with
 
 or
 
-    -DCMAKE_BUILD_TYPE=RelWithDebInfoThen, open up a terminal and:
+    -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 Make sure to surf to your team page before running the above commands...
 
